@@ -1,6 +1,6 @@
 [project]
 name = "hello-click"
-version = "0.1.0"
+version = "1.0.0"
 description = "A reference project for a simple command line application using Click."
 authors = [{ name = "Stig B. Dørmænen", email = "stigbd@gmail.com" }]
 dependencies = ["click~=8.1.7"]
