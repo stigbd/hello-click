@@ -21,12 +21,13 @@ Then, clone this repository and run:
 
 ## Development
 
-Run formatter, linter and static analysis:
+Run formatter, linter, static analysis and tests:
 
 ```bash
 % rye fmt
 % rye lint
 % rye check
+% rye test
 # or all together
 % rye run all
 ```
