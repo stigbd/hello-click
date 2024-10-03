@@ -13,10 +13,17 @@ Then, clone this repository and run:
 % rye sync
 ```
 
+To install the package locally, run:
+
+```bash
+% rye build
+% rye install --path dist/hello_click-0.1.0-py3-none-any.whl hello-click
+```
+
 ## Usage
 
 ```bash
-% rye run hello-click --help
+% hello-click --help
 ```
 
 ## Development
@@ -30,4 +37,10 @@ Run formatter, linter, static analysis and tests:
 % rye test
 # or all together
 % rye run all
+```
+
+## Run development version
+
+```bash
+% rye run hello-click
 ```
